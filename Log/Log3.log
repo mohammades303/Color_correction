@@ -1,0 +1,17 @@
+INFO:root: Image ./Inputs/Test3/folder2/BVZ0073-GC36L-RGB01~fullres-orig_2016_10_27_07_25_00_00.jpg found!
+INFO:root:      Detection accuracy = 43.6 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 10.84 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test3/folder2/BVZ0073-GC36L-RGB01~fullres-orig_2016_10_27_07_25_00_00.jpg
+
+INFO:root: Image ./Inputs/Test3/folder3/BVZ0073-GC36L-RGB01~fullres-orig_2016_10_28_16_40_00_00.jpg found!
+INFO:root:      Detection accuracy = 54.73 %
+INFO:root:      Correction error = 10.49 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test3/folder3/BVZ0073-GC36L-RGB01~fullres-orig_2016_10_28_16_40_00_00.jpg
+
+INFO:root: Image ./Inputs/Test3/folder1/BVZ0072-GC35L-RGB01~fullres-orig_2016_10_26_13_35_00_00.jpg found!
+INFO:root:      Detection accuracy = 48.38 %
+WARNING:root:   Color card seems damaged
+ERROR:root:     Color correction skipped 

@@ -1,0 +1,34 @@
+INFO:root: Image ./Inputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_25_00_00.jpg found!
+INFO:root:      Detection accuracy = 37.56 %
+INFO:root:      Correction error = 9.95 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_25_00_00.jpg
+
+INFO:root: Image ./Inputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_00_00_00.jpg found!
+INFO:root:      Detection accuracy = 38.43 %
+INFO:root:      Correction error = 10.01 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_00_00_00.jpg
+
+INFO:root: Image ./Inputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_15_00_00.jpg found!
+INFO:root:      Detection accuracy = 37.96 %
+INFO:root:      Correction error = 9.87 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_15_00_00.jpg
+
+INFO:root: Image ./Inputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_20_00_00.jpg found!
+INFO:root:      Detection accuracy = 38.37 %
+INFO:root:      Correction error = 10.05 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_20_00_00.jpg
+
+INFO:root: Image ./Inputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_05_00_00.jpg found!
+INFO:root:      Detection accuracy = 34.6 %
+WARNING:root:   Color card seems damaged
+ERROR:root:     Color correction skipped 
+
+INFO:root: Image ./Inputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_10_00_00.jpg found!
+INFO:root:      Detection accuracy = 37.96 %
+INFO:root:      Correction error = 9.83 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test1/BVZ0072-GC35R-RGB01~fullres-orig_2016_10_31_06_10_00_00.jpg

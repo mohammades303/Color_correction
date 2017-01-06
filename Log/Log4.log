@@ -1,0 +1,15 @@
+INFO:root: Image ./Inputs/Test3/folder2/BVZ0073-GC36L-RGB01~fullres-orig_2016_10_27_07_25_00_00.jpg found!
+INFO:root:      Detection accuracy = 10.03 %
+WARNING:root:   Card detection unsatisfactory
+ERROR:root:     Color correction skipped 
+
+INFO:root: Image ./Inputs/Test3/folder3/BVZ0073-GC36L-RGB01~fullres-orig_2016_10_28_16_40_00_00.jpg found!
+INFO:root:      Detection accuracy = 10.35 %
+WARNING:root:   Card detection unsatisfactory
+ERROR:root:     Color correction skipped 
+
+INFO:root: Image ./Inputs/Test3/folder1/BVZ0072-GC35L-RGB01~fullres-orig_2016_10_26_13_35_00_00.jpg found!
+INFO:root:      Detection accuracy = 8.95 %
+WARNING:root:   Card detection unsatisfactory
+ERROR:root:     Color correction skipped 
+

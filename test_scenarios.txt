@@ -1,0 +1,20 @@
+ # The following can be used to test the function. Folder structure of the inputs are kept
+ # testing without optional inputs
+ python run_color_correction.py -i ./Inputs/Test1/ -o ./Outputs/Test1 -c ./Card_templates/Card1.jpg
+ # writing logs into a file --> Log1.log
+ python run_color_correction.py -i ./Inputs/Test1/ -o ./Outputs/Test1 -c ./Card_templates/Card1.jpg -l ./Log/
+ # testing with no temlate rotation
+ python run_color_correction.py -i ./Inputs/Test1/ -o ./Outputs/Test1 -c ./Card_templates/Card1.jpg -d [0,0,1]
+ # testing with 5 different size scales
+ python run_color_correction.py -i ./Inputs/Test1/ -o ./Outputs/Test1 -c ./Card_templates/Card1.jpg -s [.95,1.05,5]
+ # faster mode by giving coordinates of a point on the card; it searches for the color card only around that point instead searching in the whole image
+ python run_color_correction.py -i ./Inputs/Test1/ -o ./Outputs/Test1 -c ./Card_templates/Card1.jpg -f [3600,1500]
+ # changing the output file name, replacing '-orig' with '-corr'
+ python run_color_correction.py -i ./Inputs/Test1/ -o ./Outputs/Test1 -c ./Card_templates/Card1.jpg -f [3600,1500] -n [-orig,-corr]
+ # testing for vartical cards --> Log2.log
+ python run_color_correction.py -i ./Inputs/Test2/ -o ./Outputs/Test2 -c ./Card_templates/Card2.jpg -n [card1,Corrected] -v -l ./Log/
+ # cases where card is damaged/blocked or rotated --> Log3.log
+ python run_color_correction.py -i ./Inputs/Test3/ -o ./Outputs/Test3 -c ./Card_templates/Card1.jpg -l ./Log/ -s [0.95,1.05,11] -f [3600,1500]
+ # color correction fails if incorrect coordinates are passed for the location of card --> Log4.log
+ python run_color_correction.py -i ./Inputs/Test3/ -o ./Outputs/Test3 -c ./Card_templates/Card1.jpg -l ./Log/ -s [0.95,1.05,11] -f [1600,1500]
+ 

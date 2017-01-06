@@ -1,0 +1,46 @@
+INFO:root: Image ./Inputs/Test2/card1-6239.JPG found!
+INFO:root:      Detection accuracy = 54.06 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 9.68 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test2/Corrected-6239.JPG
+
+INFO:root: Image ./Inputs/Test2/card1-6238.JPG found!
+INFO:root:      Detection accuracy = 52.43 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 9.88 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test2/Corrected-6238.JPG
+
+INFO:root: Image ./Inputs/Test2/card1-6236.JPG found!
+INFO:root:      Detection accuracy = 54.04 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 10.0 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test2/Corrected-6236.JPG
+
+INFO:root: Image ./Inputs/Test2/card1-6240.JPG found!
+INFO:root:      Detection accuracy = 52.03 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 9.82 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test2/Corrected-6240.JPG
+
+INFO:root: Image ./Inputs/Test2/card1-6241.JPG found!
+INFO:root:      Detection accuracy = 50.41 %
+WARNING:root:   Color card seems damaged
+ERROR:root:     Color correction skipped 
+
+INFO:root: Image ./Inputs/Test2/card1-6237.JPG found!
+INFO:root:      Detection accuracy = 52.13 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 9.58 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test2/Corrected-6237.JPG
+
+INFO:root: Image ./Inputs/Test2/card1-6235.JPG found!
+INFO:root:      Detection accuracy = 52.79 %
+WARNING:root:   Detected card is rotated
+INFO:root:      Correction error = 12.25 %
+INFO:root:      Corrected image written: 
+                ./Outputs/Test2/Corrected-6235.JPG
